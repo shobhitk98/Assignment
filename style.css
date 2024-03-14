@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+    font-family: monospace;
+    background-color: #F7F7F7;
+}
+.page1{
+    width: 100%;
+    height: 17vh;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: monospace;
+    color: rgb(250, 250, 250);
+}
+.page1 img{
+    height: 100px;
+}
+.nav ul{
+    display: flex;
+    gap: 4vw;
+    margin-left: 2vw;
+   
+}
+ul li{
+    padding: 0 3px;
+    font-family: monospace;
+    font-size: 1.6vw;
+    text-transform: uppercase;
+    list-style: none;
+    
+}
+li a{
+
+    text-decoration: none;
+}
+li a:hover{
+    
+    text-decoration-line: underline;
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(186, 172, 172); */
+    display: flex;
+    background-color: #F7F7F7;
+}
+.left{
+    padding: 2vw;
+    width: 50%;
+    height: 100vh;
+    /* background-color: rgb(222, 113, 113); */
+    
+}
+.left p {
+    font-size: 1.3vw;
+    font-weight: 600px;
+
+}
+.left h2{
+    font-size: 1.9vw;
+    padding-top: 2vw;
+
+}
+.right{
+    width: 50%;
+    height: 100vh;
+    /* background-color: rgb(189, 53, 53); */
+}
+.right h1{
+    
+    padding-top: 5vw;
+}
+.right video{
+    padding-bottom: 100px;
+    /* margin-bottom: 50%; */
+    width: 100%;
+    height: 100%;
+}
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .scroll-text {
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+    font-size: 2.6vw;
+    color: rgb(9, 61, 135);
+    /* background-color: #F7F7F7; */
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  
+.page3{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+}
+.left1{
+    padding: 2vw;
+    width: 50%;
+    height: 100vh;
+    background-color: #F7F7F7;
+    /* background-color: red; */
+}
+.left1 img{
+    width: 100%;
+    height: 100%;
+
+}
+.right1{
+    padding: 2vw;
+    padding: 2vw;
+    width: 50%;
+    height: 100vh;
+    background-color: #F7F7F7;
+    /* background-color: rgb(110, 109, 109); */
+}
+.right1 h2{
+    padding-top: 4vw ;
+}
+.right1 h4{
+    padding-top: 5vw;
+    font-size: 2vw;
+}
+button{
+    padding: 8vw;
+    background-color: rgb(122, 122, 220);
+    
+    border-radius: 20px;
+    padding: 0.8vw;
+    font-size: 1vw;
+}
+.page4{
+    width: 100%;
+    height: 22vh;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+@media(max-width:600px){
+    ul li{
+        padding: 0 3px;
+        font-family: monospace;
+        font-size: 2.6vw;
+        text-transform: uppercase;
+        list-style: none;
+        font-family: 500px;
+    }
+
+    .page2{
+        width: 100%;
+        height: 100vh;
+        /* background-color: rgb(186, 172, 172); */
+        display: flex;
+        background-color: #F7F7F7;
+    }
+    .left{
+        padding: 2vw;
+        width: 50%;
+        height: 100vh;
+        /* background-color: rgb(222, 113, 113); */
+        
+    }
+    .left p {
+        font-size: 2.3vw;
+        font-weight: 600px;
+    
+    }
+    .left h2{
+        font-size: 4vw;
+        padding-top: 5vw;
+    
+    }
+    .right{
+        width: 50%;
+        height: 100vh;
+        /* background-color: rgb(189, 53, 53); */
+    }
+    .right video{
+        padding-bottom: 100px;
+        /* margin-bottom: 50%; */
+        width: 100%;
+        height: 100%;
+    }
+    .left img{
+        height: 130px;
+    }
+    .left1 img{
+        height: 80vh;
+    }
+    .right1{
+        padding-top: 13vw;
+        /* padding: 2vw; */
+        width: 50%;
+        height: 100vh;
+        background-color: #F7F7F7;
+        /* background-color: rgb(110, 109, 109); */
+    }
+    button{
+        padding: 8vw;
+        background-color: rgb(122, 122, 220);
+        
+        border-radius: 20px;
+        padding: 0.8vw;
+        font-size: 2vw;
+    }
+    
+}
